@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="ee18fb1d-8e3e-4b79-aaaf-aad2bafc435c" name="UMLClassDiagram1" linkedPackageId="d1ba6700-5f07-4b79-83b0-afbfd491b1b9" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="f26b055d-b3dd-44b8-8673-ba43ba89d767">
+      <profileInstance Id="349711e3-3197-4d1e-bf33-523896447ae2" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="788a0b0d-b898-4c43-a126-5149aaecf32b">
+      <profileInstance Id="ab105edf-50ff-47c0-9625-8e93dac86c61" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="7c87d650-5807-4876-b360-49f1e345d80a" name="Model">
+        <elementDefinition Id="5ac3080f-e163-4670-8b21-38b4d3632770" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="02c1449a-f877-4e2f-a2e9-819aba08828f" name="Person" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="fd41088c-b6e3-4d52-bb7b-1b9047955636" />
+              <targetEnds>
+                <association Id="927ae195-c676-4401-92d6-4c6953ac5a69" isDerived="false" sourceEndRoleName="kok" targetEndRoleName="Dag" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="458bd71d-601f-4724-a9e7-c5cc8051bfb1" LastKnownName="Dag" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="af2efc35-2bc7-4160-bb3d-8cc077ebf096" name="kok" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <lowerValueInternal>
+                          <literalString Id="50743ed2-bcdb-43b8-9375-b24de246c2b8" name="Lower" value="2">
+                            <elementDefinition Id="b55b77d2-a970-49b2-ad16-4469a5e70eaf" />
+                          </literalString>
+                        </lowerValueInternal>
+                        <upperValueInternal>
+                          <literalString Id="a685f567-b47a-4604-a976-1d7850d70164" name="Upper" value="2">
+                            <elementDefinition Id="f9257c24-ae9d-4e2e-9624-87b8f6f98707" />
+                          </literalString>
+                        </upperValueInternal>
+                        <elementDefinition Id="dd336063-910c-4162-9d12-8681ba101b6d" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="c95659b0-6ca1-42d0-8241-bd622abfe3a3" name="Dag" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="164fccb8-311f-403c-82c0-e57ad9381e04" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="9bef60ad-67f6-4767-a5c4-a502b494ef14" />
+                </association>
+                <association Id="1040338a-3e4b-435f-bac7-06e745d1c24f" isDerived="false" sourceEndRoleName="Oprydder" targetEndRoleName="Dag" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="458bd71d-601f-4724-a9e7-c5cc8051bfb1" LastKnownName="Dag" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="c6ae8876-ed3b-405e-818f-9bcca589d2a4" name="Oprydder" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <lowerValueInternal>
+                          <literalString Id="b63fb761-481b-4748-9e24-d2734c4d015a" name="Lower" value="3-4">
+                            <elementDefinition Id="45c60908-16dd-4013-b02c-e56bd05d2c99" />
+                          </literalString>
+                        </lowerValueInternal>
+                        <upperValueInternal>
+                          <literalString Id="da8eef8a-2251-4103-a610-49ca1b964515" name="Upper" value="3-4">
+                            <elementDefinition Id="a7c37ea1-ae95-4858-86b5-7cab5c6bfc6e" />
+                          </literalString>
+                        </upperValueInternal>
+                        <elementDefinition Id="fe9739ed-b71a-4e42-a74d-f54635fbe13d" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="5090ef77-58ce-4a8d-b671-79907e6255f2" name="Dag" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="64029b7e-12c2-45c1-95fd-8f8c20319565" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="7a2f7dfb-a465-46db-a687-7d57138675a1" />
+                </association>
+                <association Id="1f2b1f02-168b-45d5-91b7-e35eeba24460" isDerived="false" sourceEndRoleName="Chefkok" targetEndRoleName="Dag" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="458bd71d-601f-4724-a9e7-c5cc8051bfb1" LastKnownName="Dag" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="2437f4bf-cb24-4167-af19-209778f53551" name="Chefkok" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="0ee278cd-bc22-469f-8f9f-b94d75a51ea0" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="9022361a-815f-4b21-a464-4d9409ff04d2" name="Dag" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="eeb43594-8c36-4205-87fc-cfe0b67debb0" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="a816c3bc-86f0-4205-bb22-82da72206e9c" />
+                </association>
+                <association Id="00e8ff2a-7728-4067-9226-98a2634dabfd" isDerived="false" sourceEndRoleName="Person" targetEndRoleName="Hus" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="972f7d4c-90a4-4f9e-b797-b33299bcc218" LastKnownName="Hus" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="7238ac95-71e0-4496-b22e-de39629d55d8" name="Person" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <lowerValueInternal>
+                          <literalString Id="9a95f10f-c17f-424f-8e11-dec8211efee0" name="Lower" value="1">
+                            <elementDefinition Id="9d4a69c1-0737-4af3-92f8-7a9509ae61a3" />
+                          </literalString>
+                        </lowerValueInternal>
+                        <upperValueInternal>
+                          <literalString Id="5dd6b3cc-bd9f-4a3d-8fa1-537d9cef7643" name="Upper" value="*">
+                            <elementDefinition Id="8a3eef98-ce47-4b26-9599-edb8a1b43006" />
+                          </literalString>
+                        </upperValueInternal>
+                        <elementDefinition Id="69024c71-8a9b-4867-8641-a8b0895197e5" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="92bcf5dd-5dbf-4c30-ad6f-268b839e64e9" name="Hus" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="788d7ac2-2936-4860-8650-6de539d4ac72" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="2a45580a-f129-4c61-9dae-efee8b6c99d2" />
+                </association>
+                <association Id="d137301a-956f-48de-85a2-4ff2633e70a2" isDerived="false" sourceEndRoleName="Person" targetEndRoleName="Tilmeldte" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="aefd3b00-3abb-48fe-a929-65be42dc8ff2" LastKnownName="Tilmeldte" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="1906b7dc-3d1c-42b5-bf7e-1a398e2a8215" name="Person" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="5ea55e02-73d6-4d41-888a-0d4823a8a097" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="1a10cb4b-a928-48a9-b580-e31339f053a4" name="Tilmeldte" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="4c51bfd0-6215-491c-be80-fdf05c805234" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="52deab01-18d4-4551-b0bf-dec801fff7ec" />
+                </association>
+              </targetEnds>
+              <ownedAttributesInternal>
+                <property Id="5012efd9-af16-445b-9e77-ad595d3db5b3" name="Navn" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4fadb0e2-e00c-4161-8f8c-f759171f6b16" />
+                </property>
+                <property Id="70aa3092-d5cf-483d-a5cc-4f1311f1262d" name="Alder" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="24c409dd-cb49-4363-9aea-99710021b0da" />
+                </property>
+              </ownedAttributesInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="3a1810db-6c34-4af9-8dd9-3efa686dfb63" name="Menu" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="7d0d6853-2f67-486d-af6a-7722cc38956b" />
+              <targetEnds>
+                <association Id="336054a1-a7d5-4f56-81a9-bafba5fa23ad" isDerived="false" sourceEndRoleName="Menu" targetEndRoleName="Dag" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="458bd71d-601f-4724-a9e7-c5cc8051bfb1" LastKnownName="Dag" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="7fb2d576-4ad9-4c24-892e-814cc45f8e49" name="Menu" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="cb828e91-8d88-4c83-8cc5-2c55a837fb33" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="6aabfcc4-cbd2-4c2a-b9b7-eaeee51b5e65" name="Dag" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <lowerValueInternal>
+                          <literalString Id="fa2104fa-96f7-4c15-9efa-b07bae3c3624" name="Lower" value="*">
+                            <elementDefinition Id="dda03e0e-00ee-448f-ab64-ed44dfd7ebf2" />
+                          </literalString>
+                        </lowerValueInternal>
+                        <upperValueInternal>
+                          <literalString Id="41d94bb3-eaa1-43a3-9c1e-e411d56abf00" name="Upper" value="*">
+                            <elementDefinition Id="97d66172-b309-4982-aaba-c83275570546" />
+                          </literalString>
+                        </upperValueInternal>
+                        <elementDefinition Id="abd01664-ed55-46fe-8fcf-0bebe521433c" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="4baee82e-b8ce-441a-a6ab-c5e8daaf67f3" />
+                </association>
+              </targetEnds>
+              <ownedAttributesInternal>
+                <property Id="9cdc7e2a-2458-4867-9b0a-6d7ba6f50256" name="Mad" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b851fac6-eba1-4f2b-a400-87ab32126889" />
+                </property>
+                <property Id="93c16eac-3a0a-4393-bf18-db73c5407036" name="pris" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="aefc43ca-1e20-4cd5-98f3-eefbe57c721a" />
+                </property>
+              </ownedAttributesInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="972f7d4c-90a4-4f9e-b797-b33299bcc218" name="Hus" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="3a86f389-e46f-4201-b00f-87f008f22231" />
+              <targetEnds>
+                <association Id="7271d4b3-7170-4ee1-81cd-0a16174f5073" isDerived="false" sourceEndRoleName="Hus" targetEndRoleName="Dag" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="458bd71d-601f-4724-a9e7-c5cc8051bfb1" LastKnownName="Dag" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="ca47ae3c-05c6-4b7b-9be0-5561e4a9849c" name="Hus" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <lowerValueInternal>
+                          <literalString Id="848fd9df-6981-4f9f-bfd6-98ff1c79edfb" name="Lower" value="0">
+                            <elementDefinition Id="4fb5897e-1e41-4acc-b3cc-803879b7ea62" />
+                          </literalString>
+                        </lowerValueInternal>
+                        <upperValueInternal>
+                          <literalString Id="f87a4433-4740-47a4-9a3a-aef6be75034c" name="Upper" value="*">
+                            <elementDefinition Id="a07123d6-caa1-491e-a36d-d4fadafb9560" />
+                          </literalString>
+                        </upperValueInternal>
+                        <elementDefinition Id="a7029f6c-8255-4688-ab10-70b455bb3f0a" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="187b4fa3-8e4c-4611-965d-055796b6ff18" name="Dag" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <lowerValueInternal>
+                          <literalString Id="6fd7e15d-c569-4448-b7b5-f29c528f3258" name="Lower" value="0">
+                            <elementDefinition Id="03267258-c4dd-41bd-8480-ecd3c20a60db" />
+                          </literalString>
+                        </lowerValueInternal>
+                        <upperValueInternal>
+                          <literalString Id="1353ebad-a53e-4fa0-a722-0e55b55a5449" name="Upper" value="*">
+                            <elementDefinition Id="1a026bc6-598f-4440-8f32-edfa75fad49d" />
+                          </literalString>
+                        </upperValueInternal>
+                        <elementDefinition Id="cf33cb47-644b-41f1-82cd-0b1cbd099570" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="82fed415-34a7-4ce0-8e3c-231a1573b44c" />
+                </association>
+              </targetEnds>
+              <ownedAttributesInternal>
+                <property Id="023a8851-9ab3-4af2-957d-933c48d5bf44" name="Antal Beboere" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="bb0d5e54-1890-428f-9e54-7beab64d634e" />
+                </property>
+                <property Id="50b3c96b-0f09-4ee1-9aea-556e033dfca6" name="Nummeret" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="aa98fe21-bdd3-438c-9dda-0880637c002b" />
+                </property>
+              </ownedAttributesInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="2de2c444-3d8a-4cb9-9c68-1a494eaca40d" name="Kalender" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="e09d9acc-7e84-4874-baff-dcc8b38410e4" />
+              <targetEnds>
+                <association Id="b948d93b-7e07-42a7-9f0b-67c48d7ef658" isDerived="false" sourceEndRoleName="Kalender" targetEndRoleName="Dag" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="458bd71d-601f-4724-a9e7-c5cc8051bfb1" LastKnownName="Dag" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="fb7e8342-b46c-438b-a46b-2c5758c49908" name="Kalender" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="70f57dfb-3e72-4fc7-acab-0092cac6dcb9" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="4ae9364f-a823-4169-88b3-f618a568a4ff" name="Dag" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <lowerValueInternal>
+                          <literalString Id="e5a003e8-4ccd-49d7-976f-9541a98753f4" name="Lower" value="1">
+                            <elementDefinition Id="729facb1-02bc-4799-b275-d6d2ee6f51ea" />
+                          </literalString>
+                        </lowerValueInternal>
+                        <upperValueInternal>
+                          <literalString Id="a8fb2e30-b950-49ca-a1bb-45ead34f0395" name="Upper" value="*">
+                            <elementDefinition Id="6be86eab-4b5c-4080-9a5d-5f6917981783" />
+                          </literalString>
+                        </upperValueInternal>
+                        <elementDefinition Id="a845050b-df35-4cbc-b8cf-c69378449e2a" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="d09545fc-0372-480b-9726-53648dd35f49" />
+                </association>
+              </targetEnds>
+              <ownedAttributesInternal>
+                <property Id="4b676609-6f9e-432e-819d-ca4ba22a938b" name="Opgaver" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9fc32de9-7691-4776-adba-13497e4a8c55" />
+                </property>
+                <property Id="39cc8670-c91d-420c-a2b3-f894da31fddd" name="Dag" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b36cc215-e99b-467c-bf4c-95d267c52030" />
+                </property>
+              </ownedAttributesInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="aefd3b00-3abb-48fe-a929-65be42dc8ff2" name="Tilmeldte" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="6dfbf9d4-9c99-498c-8090-d747d182bf91" />
+              <targetEnds>
+                <association Id="099aff17-8c95-47f5-b56f-5956781a4697" isDerived="false" sourceEndRoleName="Tilmeldte" targetEndRoleName="Dag" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="458bd71d-601f-4724-a9e7-c5cc8051bfb1" LastKnownName="Dag" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="08cc460f-dcc4-4b97-8958-a32b4a5da194" name="Tilmeldte" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <lowerValueInternal>
+                          <literalString Id="9360634c-6442-4216-beec-e1849b7aed03" name="Lower" value="*">
+                            <elementDefinition Id="f46f7a22-460a-4c01-9904-4d1b12b10368" />
+                          </literalString>
+                        </lowerValueInternal>
+                        <upperValueInternal>
+                          <literalString Id="dc3f6646-0439-46fe-b1d6-612ad582a9b8" name="Upper" value="*">
+                            <elementDefinition Id="bd5462e4-68be-4cf7-ad14-812a1597757a" />
+                          </literalString>
+                        </upperValueInternal>
+                        <elementDefinition Id="688785d9-14a1-4012-bb1a-2e9b548bf938" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="f98a16ad-9f40-4d36-9ac9-a33289333f2e" name="Dag" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="cf0d39bd-543f-4593-96fb-5d33c12049c7" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="bc5cf771-0035-471e-9e44-2f79dee273f0" />
+                </association>
+              </targetEnds>
+              <ownedAttributesInternal>
+                <property Id="919aa7dc-2e46-4554-9133-057ac34ba31d" name="husnummer" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9a38525f-d8eb-43f6-bedc-e58ec24c0520" />
+                </property>
+                <property Id="0e67d51f-d2e8-43e1-afdd-f235321e6e5d" name="tilmeldte" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="83a84b11-dbe5-44fe-b172-6bba5421c2a8" />
+                </property>
+              </ownedAttributesInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="458bd71d-601f-4724-a9e7-c5cc8051bfb1" name="Dag" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="e4852a35-b93a-4722-8083-284d4c4b5409" />
+              <ownedAttributesInternal>
+                <property Id="ef7dbdcd-a3dd-4d68-bc7f-d48e97dd0318" name="Total pris" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3f5bbd36-49c5-4ad5-a52b-d1806b4a40e5" />
+                </property>
+              </ownedAttributesInternal>
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="c54a6ec4-c50a-48bb-be10-3334c3103a46" name="Package1">
+        <elementDefinition Id="93589f6a-f3c8-49ed-9f76-750d1639d1a9" />
+      </package>
+    </logicalClassDesignerModelHasPackages>
+  </packagedElements>
+  <package Id="d1ba6700-5f07-4b79-83b0-afbfd491b1b9" name="ClassDiagram">
+    <elementDefinition Id="75a1c754-c5df-4f57-bcbf-72f263f1f571" />
+  </package>
+</logicalClassDesignerModel>
